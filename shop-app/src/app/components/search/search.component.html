@@ -1,13 +1,6 @@
-<!--<ul class="nav">-->
-  <!--<li *ngFor="let route of routes">-->
-    <!--<a routerLink="{{route.path}}" routerLinkActive="current">{{route.title}}</a>-->
-  <!--</li>-->
-<!--</ul>-->
-
-<li><a routerLink="home">HOME</a></li>
-<li><a routerLink="coming-soon">NEW</a></li>
-<li><a routerLink="coming-soon">FEATURED</a></li>
-<li><a routerLink="coming-soon">BLOG</a></li>
-<li><a routerLink="coming-soon">BRAND</a></li>
-<li><a routerLink="coming-soon">OFFERS</a></li>
-<li><a routerLink="contact">CONTACT</a></li>
+<li class="searchbox">
+  <input type="search" placeholder="Search......" name="search" class="searchbox-input"
+         onkeyup="buttonUp();" required>
+  <input type="submit" class="searchbox-submit" value="">
+  <span class="searchbox-icon"><i class="fa fa-search"></i></span>
+</li>

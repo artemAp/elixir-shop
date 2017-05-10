@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'account-nav',
-    templateUrl: './account-navigation.component.html'
+    selector: 'social-buttons',
+    templateUrl: './social-btn.component.html'
 })
-export class AccountNavigation {
+export class SocialBtn {
 
     constructor() {
 

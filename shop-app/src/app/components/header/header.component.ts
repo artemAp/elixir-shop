@@ -1,16 +1,12 @@
 import { Component } from '@angular/core';
-import { appRoutes } from '../../routes';
 
 @Component({
-    selector: 'navigation',
-    templateUrl: './navigation.component.html',
-    styleUrls: ['./navigation.component.css']
+    selector: 'header-app',
+    templateUrl: './header.component.html'
 })
-export class Navigation {
+export class Header {
 
-    routes: any;
+  constructor() {
 
-    constructor() {
-        this.routes = appRoutes;
-    }
+  }
 }

@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { appRoutes } from '../routes';
+import { appRoutes } from '../../routes';
 
 @Component({
-    selector: 'navigation',
-    templateUrl: './navigation.component.html',
-    styleUrls: ['./navigation.component.css']
+    selector: 'main-nav',
+    templateUrl: './navigation.component.html'
 })
 export class Navigation {
 

@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'footer-app',
-    templateUrl: './footer.component.html'
+    selector: 'cart-informer',
+    templateUrl: './cart-informer.component.html'
 })
-export class Footer {
+export class CartInformer {
 
   constructor() {
 

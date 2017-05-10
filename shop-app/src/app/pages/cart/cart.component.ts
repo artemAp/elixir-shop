@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-root',
-    templateUrl: './home.component.html'
+    templateUrl: './cart.component.html'
 })
-export class Home {
+export class Cart {
 
 }

@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-root',
-    templateUrl: './checkout.component.html'
+    template: '<h1>Coming Soon</h1>'
 })
-export class Checkout {
+export class ComingSoon {
 
 }

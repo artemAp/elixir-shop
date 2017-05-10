@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-root',
-    templateUrl: './contact.component.html'
+    templateUrl: './checkout.component.html'
 })
-export class Contact {
+export class Checkout {
 
 }

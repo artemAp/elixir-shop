@@ -1,5 +1,61 @@
-<ul class="nav">
-  <li *ngFor="let route of routes">
-    <a routerLink="{{route.path}}" routerLinkActive="current">{{route.title}}</a>
-  </li>
-</ul>
+<!-- Header-Section-Strat  -->
+<header>
+  <div class="container">
+    <div class="header_top">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="header_top_left float-left">
+            <ul class="social_icon">
+              <social-buttons></social-buttons>
+            </ul>
+            <ul class="social_others">
+              <li><a><i class="fa fa-phone"></i>+8801711223344</a></li>
+              <li><a href="#"><i class="fa fa-envelope-o"></i>support@domain.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="header_top_right text-right">
+            <ul>
+              <account-nav></account-nav>
+              <main-search></main-search>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row mega_relative">
+      <div class="col-xs-12 col-sm-2">
+        <div class="logo head_lo">
+          <a href="index.html"><img src="assets/images/logo.png" alt="Logo"/></a>
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <div class="mainmenu float-right">
+          <nav>
+            <ul>
+              <main-nav></main-nav>
+              <cart-informer></cart-informer>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- mobile-menu-area start -->
+<div class="mobile-menu-area">
+  <div class="container">
+    <div class="mobile-menu">
+      <nav id="dropdown">
+        <ul>
+          <main-nav></main-nav>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<!-- mobile-menu-area end -->
+<!-- Header-Section-End  -->

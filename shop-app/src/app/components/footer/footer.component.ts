@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
-import { appRoutes } from '../../routes';
 
 @Component({
-    selector: 'header',
-    templateUrl: './header.component.html'
+    selector: 'footer-app',
+    templateUrl: './footer.component.html'
 })
-export class Navigation {
+export class Footer {
 
-    routes: any;
+  constructor() {
 
-    constructor() {
-        this.routes = appRoutes;
-    }
+  }
 }
