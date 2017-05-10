@@ -1,15 +1,15 @@
-import { Component } from '@angular/core';
-import { appRoutes } from '../../routes';
+import {Component} from '@angular/core';
+import {appRoutes} from '../../routes';
 
 @Component({
-    selector: 'main-nav',
-    templateUrl: './navigation.component.html'
+  selector: 'main-nav',
+  templateUrl: './navigation.component.html'
 })
 export class Navigation {
 
-    routes: any;
+  routes: any;
 
-    constructor() {
-        this.routes = appRoutes;
-    }
+  constructor() {
+    this.routes = appRoutes;
+  }
 }

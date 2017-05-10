@@ -23,6 +23,7 @@ import { Checkout } from './pages/checkout/checkout.component';
 
 import { appRoutes } from './routes';
 import { ComingSoon } from './pages/coming-soon/comming-soont.component';
+import { Subscribe } from './components/subscribe/subscribe.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ComingSoon } from './pages/coming-soon/comming-soont.component';
     CartInformer,
     AccountNavigation,
     SocialBtn,
-    Search
+    Search,
+    Subscribe
   ],
   imports: [
     BrowserModule,

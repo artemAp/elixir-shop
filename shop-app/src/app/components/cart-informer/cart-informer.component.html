@@ -1,4 +1,4 @@
 <li class="shop_icon">
   <a href="checkout.html"><img src="assets/images/menu_icon_img.png" alt=""/></a>
-  <span>10</span>
+  <span [hidden]="!productsInCart.length">{{productsInCart.length}}</span>
 </li>
