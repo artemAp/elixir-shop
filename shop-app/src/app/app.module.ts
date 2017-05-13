@@ -24,6 +24,8 @@ import { Checkout } from './pages/checkout/checkout.component';
 import { appRoutes } from './routes';
 import { ComingSoon } from './pages/coming-soon/comming-soont.component';
 import { Subscribe } from './components/subscribe/subscribe.component';
+import { ProductComponent } from './components/product/product.component';
+import { ProductsListComponent } from './components/products-list/products-list.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { Subscribe } from './components/subscribe/subscribe.component';
     AccountNavigation,
     SocialBtn,
     Search,
-    Subscribe
+    Subscribe,
+    ProductComponent,
+    ProductsListComponent
   ],
   imports: [
     BrowserModule,

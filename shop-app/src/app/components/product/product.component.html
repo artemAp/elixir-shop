@@ -1,0 +1,6 @@
+<div class="product">
+  <h4>{{product.name}}</h4>
+  <p>{{product.desc}}</p>
+  <div class="price">{{formatPrice(product.price)}}</div>
+  <a href="#" class="addBtn" (click)="addToCart($event, product.id)">add to cart</a>
+</div>

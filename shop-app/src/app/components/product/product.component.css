@@ -1,0 +1,30 @@
+.product{
+  color: #000;
+}
+
+.product h4{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.product p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.price{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.addBtn{
+  width: 200px;
+  display: block;
+  text-decoration: none;
+  background: cornflowerblue;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px auto 0;
+  cursor: pointer;
+}

@@ -1,34 +1,19 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import { CartService } from '../../services/cart.service';
 
 @Component({
-    selector: 'cart-informer',
-    templateUrl: './cart-informer.component.html'
+  selector: 'cart-informer',
+  templateUrl: './cart-informer.component.html',
+  providers: [CartService]
 })
-export class CartInformer {
-  private productsInCart : object[];
+export class CartInformer implements OnInit {
+  private productsInCart: object[];
 
-  constructor() {
-    this.productsInCart = [
-      {name: 'Test product 1', desc: 'Test desc', price: 245},
-      {name: 'Test product 2', desc: 'Test desc', price: 644},
-      {name: 'Test product 3', desc: 'Test desc', price: 93},
-      {name: 'Test product 4', desc: 'Test desc', price: 456}
-    ];
+  constructor(private cartService: CartService) {
 
-    setTimeout( () => {
-      this.pushElement();
-    }, 3000);
-
-    setTimeout( () => {
-      this.emptyCart();
-    }, 6000);
   }
 
-  pushElement(){
-    this.productsInCart.push({name: 'Test product 5', desc: 'Test desc', price: 354});
-  }
-
-  emptyCart(){
-    this.productsInCart.length = null;
+  ngOnInit() {
+    this.productsInCart = this.cartService.getData();
   }
 }

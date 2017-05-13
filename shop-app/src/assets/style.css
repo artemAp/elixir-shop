@@ -117,7 +117,7 @@ Version: 1.0
 	font-style: normal;
 }
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
 	font-family: Flaticon;
 	font-style: normal;
 }
@@ -379,7 +379,7 @@ li.searchbox.searchbox-open {padding-top: 0;}
 /*==========================================
 [4. Product-Section ]
 ===========================================*/
-.product_area {overflow: hidden;}
+.product_area {overflow: hidden; display: block;}
 .main_single_product {width: 50%;}
 /*-------------------------------
 [4.1 Left-Product ]

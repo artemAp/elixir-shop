@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Test product 1",
+      "desc": "Test Description 1",
+      "price": 15222,
+      "quantity": 10
+    },
+    {
+      "id": 1,
+      "name": "Test product 2",
+      "desc": "Test Description 2",
+      "price": 12000,
+      "quantity": 8
+    },
+    {
+      "id": 2,
+      "name": "Test product 3",
+      "desc": "Test Description 3",
+      "price": 66878,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "Test product 4",
+      "desc": "Test Description 4",
+      "price": 465448,
+      "quantity": 5
+    },
+    {
+      "id": 4,
+      "name": "Test product 5",
+      "desc": "Test Description 5",
+      "price": 54678,
+      "quantity": 10
+    },
+    {
+      "id": 5,
+      "name": "Test product 6",
+      "desc": "Test Description 6",
+      "price": 54646,
+      "quantity": 60
+    },
+    {
+      "id": 6,
+      "name": "Test product 7",
+      "desc": "Test Description 7",
+      "price": 138488,
+      "quantity": 6
+    },
+    {
+      "id": 7,
+      "name": "Test product 8 ",
+      "desc": "Test Description 8",
+      "price": 56446,
+      "quantity": 8
+    },
+    {
+      "id": 8,
+      "name": "Test product 9",
+      "desc": "Test Description 9",
+      "price": 15654,
+      "quantity": 16
+    }
+  ]
+}
