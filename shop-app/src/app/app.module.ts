@@ -26,6 +26,7 @@ import { ComingSoon } from './pages/coming-soon/comming-soont.component';
 import { Subscribe } from './components/subscribe/subscribe.component';
 import { ProductComponent } from './components/product/product.component';
 import { ProductsListComponent } from './components/products-list/products-list.component';
+import { CartComponent } from './components/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { ProductsListComponent } from './components/products-list/products-list.
     Search,
     Subscribe,
     ProductComponent,
-    ProductsListComponent
+    ProductsListComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
