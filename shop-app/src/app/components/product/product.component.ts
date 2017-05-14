@@ -10,6 +10,7 @@ import { CartService } from '../../services/cart.service';
 export class ProductComponent implements OnInit {
 
   @Input() product: object;
+  private productInCart: any;
 
   constructor(private cartService: CartService){
 
@@ -23,12 +24,12 @@ export class ProductComponent implements OnInit {
 
   addToCart(e, id: number){
     e.preventDefault();
-    console.log('id', id);
     this.cartService.addToCart(id);
+    this.productInCart = this.cartService.getData();
   }
 
   ngOnInit(){
-    this.cartService.getData();
+    this.productInCart = this.cartService.getData();
   }
 
 }

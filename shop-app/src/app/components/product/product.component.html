@@ -2,5 +2,6 @@
   <h4>{{product.name}}</h4>
   <p>{{product.desc}}</p>
   <div class="price">{{formatPrice(product.price)}}</div>
-  <a href="#" class="addBtn" (click)="addToCart($event, product.id)">add to cart</a>
+  <a href="#" class="prod-btn" *ngIf="productInCart.indexOf(product.id) == -1"(click)="addToCart($event, product.id)">add to cart</a>
+  <a href="#" class="prod-btn in-cart" *ngIf="productInCart.indexOf(product.id) != -1">product in cart</a>
 </div>

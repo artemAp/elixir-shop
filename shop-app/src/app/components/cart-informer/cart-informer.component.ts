@@ -7,13 +7,16 @@ import { CartService } from '../../services/cart.service';
   providers: [CartService]
 })
 export class CartInformer implements OnInit {
-  private productsInCart: object[];
+  private productsInCart: any;
 
   constructor(private cartService: CartService) {
 
   }
 
   ngOnInit() {
-    this.productsInCart = this.cartService.getData();
+    this.cartService.getData2().subscribe(res => {
+      console.log(res, 'dsfsdfsd');
+      this.productsInCart = res;
+    });
   }
 }

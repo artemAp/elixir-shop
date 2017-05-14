@@ -17,7 +17,7 @@
   margin: 10px 0;
 }
 
-.addBtn{
+.prod-btn{
   width: 200px;
   display: block;
   text-decoration: none;
@@ -27,4 +27,9 @@
   line-height: 30px;
   margin: 10px auto 0;
   cursor: pointer;
+  color: #ffffff;
+}
+
+.prod-btn.in-cart{
+  opacity: .5;
 }
